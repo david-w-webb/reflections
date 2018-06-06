@@ -17,6 +17,7 @@ Branches might be helpful in keeping history organized when there are multiple v
 Branches will help to make each of those versions maintain their own separate state.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams show the branches and the commits performed against those branches.  Features that are different between branches can be seen more easily.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
