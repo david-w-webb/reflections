@@ -17,3 +17,9 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+git init
+git add
+git status
+staging area
+working directory
