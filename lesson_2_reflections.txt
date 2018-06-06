@@ -2,10 +2,14 @@ What happens when you initialize a repository? Why do you need to do it?
 An empty repository is created.  I need to commit my initial changes and I need to add files to it.
 
 How is the staging area different from the working directory and the repository?
+The staging area contains the files and changes that have been added but not committed.
+
 What value do you think it offers?
+The staging area gives you the chance to create a baseline of the changes that you're making.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can make small changes that are part of a logical change and add them to the staging area without making a commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -18,8 +22,3 @@ the diagram the way we do?
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-git init
-git add
-git status
-staging area
-working directory
