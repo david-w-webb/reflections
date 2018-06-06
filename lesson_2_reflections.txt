@@ -21,6 +21,7 @@ Diagrams show the branches and the commits performed against those branches.  Fe
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The code of the 2 branches is combined into a single set of files.  Changes made in the two branches can be merged into a single result.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
