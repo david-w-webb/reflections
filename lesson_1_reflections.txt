@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing the diff showed the lines that had changed between the two files and allowed me to identify
+which lines were different.  FC and diff behave differently, but both work.  I like the + and -
+in diff a bit more than the fc method.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+With easy access to the history of a file, any detrimental changes could be easily rolled back to the prior version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pros:
+Each commit can represent a unit of change - you believe that you have addressed a feature or issue and intend to commit that work.
+
+The cons:
+It's possible to lose small amounts of work if you don't commit and your work area dies.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed for version control of a multifile project, while Google Docs is designed for version control of a single document.
+
+git config --global color.ui -auto
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log allows display of all commit comments for the proejct.
+git diff allows display of changes between the chosen commit and another one.  Commit are in sequence from earliest at the top to latest at the bottom.
+
+How might using version control make you more confident to make changes that could break something?
+
+With version control and committing every substantive change, I can easily go back and locate a change where a new issue occurred and I 
+can also easily revert to a prior version.
+
+Now that you have your workspace set up, what do you want to try using Git for
+
+I want to use GIT to version-control and deploy a project that I've been working on through DEV, TEST, and PRD environments.
