@@ -13,6 +13,8 @@ You can make small changes that are part of a logical change and add them to the
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches might be helpful in keeping history organized when there are multiple versions that need to be managed simultaneously.
+Branches will help to make each of those versions maintain their own separate state.
 
 How do the diagrams help you visualize the branch structure?
 
