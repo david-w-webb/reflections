@@ -25,4 +25,6 @@ The code of the 2 branches is combined into a single set of files.  Changes made
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-
+Automatic merging will combine changes that don't affect the same code.  
+Pros: It's easy when it works
+Cons: Some code duplication or conflict can still occur.
